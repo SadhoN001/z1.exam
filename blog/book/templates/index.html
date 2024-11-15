@@ -1,0 +1,6 @@
+<h1>Objects Created in the Past Month</h1>
+<ul>
+    {% for object in objects %}
+        <li>{{ object.name }} - {{ object.join_date }}</li>
+    {% endfor %}
+</ul>
